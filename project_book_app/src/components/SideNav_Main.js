@@ -4,41 +4,41 @@ export class SideNav_Main extends Component {
   render() {
     return (
       <div>
-        <li>Entry 1</li>
-        <li>Entry 2</li>
-        <li>Entry 3</li>
-        <li>Entry 4</li>
-        <li>Entry 1</li>
-        <li>Entry 2</li>
-        <li>Entry 3</li>
-        <li>Entry 4</li>
-        <li>Entry 1</li>
-        <li>Entry 2</li>
-        <li>Entry 3</li>
-        <li>Entry 4</li>
-        <li>Entry 1</li>
-        <li>Entry 2</li>
-        <li>Entry 3</li>
-        <li>Entry 4</li>
-        <li>Entry 1</li>
-        <li>Entry 2</li>
-        <li>Entry 3</li>
-        <li>Entry 4</li>
-        <li>Entry 1</li>
-        <li>Entry 2</li>
-        <li>Entry 3</li>
-        <li>Entry 4</li>
-        <li>Entry 1</li>
-        <li>Entry 2</li>
-        <li>Entry 3</li>
-        <li>Entry 4</li>
-        <li>Entry 1</li>
-        <li>Entry 2</li>
-        <li>Entry 3</li>
-        <li>Entry 4</li>
-        <li>Entry 1</li>
-        <li>Entry 2</li>
-        <li>Entry 3</li>
+        <li>Book 1</li>
+        <li>Book 2</li>
+        <li>Book 3</li>
+        <li>Book 4</li>
+        <li>Book 1</li>
+        <li>Book 2</li>
+        <li>Book 3</li>
+        <li>Book 4</li>
+        <li>Book 1</li>
+        <li>Book 2</li>
+        <li>Book 3</li>
+        <li>Book 4</li>
+        <li>Book 1</li>
+        <li>Book 2</li>
+        <li>Book 3</li>
+        <li>Book 4</li>
+        <li>Book 1</li>
+        <li>Book 2</li>
+        <li>Book 3</li>
+        <li>Book 4</li>
+        <li>Book 1</li>
+        <li>Book 2</li>
+        <li>Book 3</li>
+        <li>Book 4</li>
+        <li>Book 1</li>
+        <li>Book 2</li>
+        <li>Book 3</li>
+        <li>Book 4</li>
+        <li>Book 1</li>
+        <li>Book 2</li>
+        <li>Book 3</li>
+        <li>Book 4</li>
+        <li>Book 1</li>
+        <li>Book 2</li>
+        <li>Book 3</li>
       </div>
     );
   }

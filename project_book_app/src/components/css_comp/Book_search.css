@@ -1,0 +1,17 @@
+.Book_search_main {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(15px + 2vmin);
+  color: #000;
+}
+
+.Book_search_main input {
+  min-width: calc(10px + 40vw);
+  min-height: calc(10px + 4vh);
+}
+
+.Book_search_main button {
+  min-height: calc(15px + 4vh);
+  min-width: calc(10px + 10vw);
+}
