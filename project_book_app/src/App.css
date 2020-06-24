@@ -15,6 +15,8 @@
 }
 
 .App-header {
+  position: fixed;
+  min-width: 100%;
   background-color: #282c34;
   min-height: 8vh;
   display: flex;
@@ -25,6 +27,7 @@
   color: white;
 }
 .App-footer {
+  width: 100%;
   background-color: #282c34;
   min-height: 8vh;
   display: flex;
@@ -35,7 +38,29 @@
   color: white;
 }
 .App-body {
-  min-height: calc(100vh - 16vh);
+  margin-top: 10vh;
+  min-height: 100%;
+  float: left;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+}
+.App-sidebar {
+  margin-top: 10vh;
+  float: left;
+  padding: 20px;
+  background-color: #44484e;
+  min-height: 8vh;
+  min-width: 15vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 .App-link {
@@ -49,4 +74,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #44484e;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #44484e;
 }

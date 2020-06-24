@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Main_body from "./components/Main_body";
+import SideNav_Main from "./components/SideNav_Main";
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <Header />
       </header>
+      <div className="App-sidebar">
+        <SideNav_Main />
+      </div>
       <div className="App-body">
         <Main_body />
       </div>
